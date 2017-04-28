@@ -1,0 +1,9 @@
+h1 { text-align: center; color: #cc5555;}
+table { size: auto; border: 2px solid #330000; }
+td { border: .5px solid #663333; }
+#cid { text-align: right; }
+#sectDisplay { position: absolute; top: 30px; left: 5px; visibility: hidden; border: double; background: #ffeeee;}
+#sectAdd { position: absolute; top: 30px; left: 5px; visibility: hidden; border: double; background: #ffeeee;}
+#sectUpdate { position: absolute; top: 30px; left: 5px; visibility: hidden; border: double; background: #ffeeee}
+#sectDelete { position: absolute; top: 30px; left: 5px; visibility: hidden; border: double; background: #ffeeee;}
+#sectAbout { position: absolute; top: 30px; left: 5px; visibility: hidden; border: double; background: #ffeeee; padding: 12px; }
