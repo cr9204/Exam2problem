@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles/Exam2problem.css" />
     <script src="js/Exam2problem.js"></script>
 </head>
-<body>
+<body onload="GetCategories();">
     <select onchange="toggleAll();" id="menu">
         <option>Please select an option...</option>
         <option>Display Category List</option>
@@ -17,7 +17,7 @@
     </select>
     
     <section id="sectDisplay">
-        <h1>Category List <button onclick="GetCategories();">Display Categories</button></h1>
+        <h1>Category List</h1>
         <hr>
         <table id="catList">
             <th>Category ID</th>
