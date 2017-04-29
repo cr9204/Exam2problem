@@ -9,7 +9,7 @@
 <body>
     <select onchange="toggleAll();" id="menu">
         <option>Please select an option...</option>
-        <option onclick="GetCategories();">Display Category List</option>
+        <option>Display Category List</option>
         <option>Add Product Category</option>
         <option>Update Category Descriptions</option>
         <option>Delete Category</option>
@@ -17,7 +17,7 @@
     </select>
     
     <section id="sectDisplay">
-        <h1>Category List</h1>
+        <h1>Category List <button onclick="GetCategories();">Display Categories</button></h1>
         <hr>
         <table id="catList">
             <th>Category ID</th>
